@@ -1,0 +1,58 @@
+DRACONIS - CONFIGURACION RAPIDA
+================================
+
+La pagina ya esta construida. Para personalizarla, normalmente SOLO tocaras estos archivos:
+
+1) data/contactos.js
+   - Numero de WhatsApp
+   - Correo
+   - Instagram
+   - Facebook
+   - TikTok
+   - YouTube
+   - Ubicacion base
+
+2) data/configuracion.js
+   - Eslogan
+   - Cifras (+11 anos, +8000 graduados, +200 Maestres...)
+   - Publishable key de Supabase, si quieres que el buzon tambien guarde solicitudes.
+
+3) data/servicios.js
+   - Casas
+   - Materias
+   - Ramas (Fisica, Matematicas, Musica, etc.)
+
+4) data/testimonios.js + assets/testimonios/
+   - Sustituye testimonio-1.svg, testimonio-2.svg, etc. por tus capturas reales.
+   - Puedes usar .jpg, .png, .webp o .svg; cambia el nombre en testimonios.js si hace falta.
+
+5) data/videos.js
+   - Pega tus enlaces de YouTube y TikTok.
+
+IMPORTANTE SOBRE EL LOGO
+------------------------
+La web usa SIEMPRE assets/draconis-logo.svg, incluso en el boton flotante de WhatsApp.
+Si tienes el SVG original del logo anterior, reemplaza ese archivo manteniendo exactamente el nombre:
+
+assets/draconis-logo.svg
+
+No tendras que modificar ninguna otra linea: el logo cambiara en toda la pagina automaticamente.
+
+BUZON SUPABASE (OPCIONAL)
+-------------------------
+La pagina puede funcionar sin Supabase: el formulario abre WhatsApp con el mensaje completo.
+Para que ADEMAS quede guardado:
+
+A. Abre Supabase > SQL Editor.
+B. Ejecuta supabase/01_cotizaciones.sql una sola vez.
+C. Abre data/configuracion.js.
+D. Pega la PUBLISHABLE/ANON key publica en publishableKey.
+   NUNCA uses service_role.
+
+PUBLICACION
+-----------
+Puedes subir el contenido de esta carpeta directamente a Cloudflare Pages, GitHub Pages,
+Netlify o cualquier hosting de archivos estaticos.
+
+En Cloudflare, si el proyecto espera una carpeta de salida, usa esta carpeta completa como sitio.
+index.html esta en la raiz.

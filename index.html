@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#12091c">
+  <meta name="description" content="Draconis Soporte Académico. Tutorías, acompañamiento académico, proyectos, investigación y clases en múltiples áreas del conocimiento.">
+  <title>Draconis · Soporte Académico</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./data/contactos.js" defer></script>
+  <script src="./data/configuracion.js" defer></script>
+  <script src="./data/servicios.js" defer></script>
+  <script src="./data/testimonios.js" defer></script>
+  <script src="./data/videos.js" defer></script>
+  <script src="./js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <div class="page-noise" aria-hidden="true"></div>
+  <div id="embers" class="embers" aria-hidden="true"></div>
+
+  <header class="site-header" id="inicio">
+    <button class="menu-button" id="menu-button" type="button" aria-label="Abrir menú" aria-controls="side-menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <a class="brand" href="#inicio" aria-label="Draconis - Inicio">
+      <img src="./assets/draconis-logo.svg" alt="" class="brand-mark">
+      <span class="brand-copy">
+        <strong data-brand-name>DRACONIS</strong>
+        <small data-brand-descriptor>Soporte Académico</small>
+      </span>
+    </a>
+
+    <a class="header-whatsapp" href="#cotizar" aria-label="Cotizar con Draconis">
+      <span aria-hidden="true">✦</span>
+      <span>Cotizar</span>
+    </a>
+  </header>
+
+  <div class="menu-backdrop" id="menu-backdrop" hidden></div>
+  <aside class="side-menu" id="side-menu" aria-hidden="true">
+    <div class="side-menu-header">
+      <div class="side-brand">
+        <img src="./assets/draconis-logo.svg" alt="">
+        <div><strong>DRACONIS</strong><small>La Orden te escucha</small></div>
+      </div>
+      <button id="menu-close" class="menu-close" type="button" aria-label="Cerrar menú">×</button>
+    </div>
+    <nav class="side-nav" aria-label="Navegación principal">
+      <a href="#inicio">Inicio</a>
+      <a href="#sobre-nosotros">Sobre nosotros</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#casas">Casas del conocimiento</a>
+      <a href="#orden">La Orden</a>
+      <a href="#clientes">Clientes</a>
+      <a href="#videos">Videos</a>
+      <a class="nav-cta" href="#cotizar">Cotizar</a>
+      <a href="#unete">Únete a la Orden</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="side-socials" id="side-socials"></div>
+  </aside>
+
+  <main id="contenido">
+    <section class="hero section-dark" aria-labelledby="hero-title">
+      <div class="hero-inner container">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">ORDEN DRACONIS · EQUIPO ERUDITO</span>
+          <h1 id="hero-title"><span data-brand-name>DRACONIS</span><small data-brand-descriptor>Soporte Académico</small></h1>
+          <p class="hero-slogan" data-slogan>Que ningún desafío te encuentre sin guía.</p>
+          <p class="hero-lead">Tutorías, acompañamiento académico, investigación, proyectos y clases en múltiples áreas del conocimiento. Cuéntanos qué necesitas y la Orden buscará al Maestre indicado para tu desafío.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#cotizar"><span>🔥</span> Cotizar mi desafío</a>
+            <a class="button button-ghost whatsapp-general" href="#"><span>💬</span> Hablar con nuestro agente</a>
+          </div>
+          <div class="hero-socials" id="hero-socials" aria-label="Redes sociales de Draconis"></div>
+        </div>
+
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="sigil-ring ring-one"></div>
+          <div class="sigil-ring ring-two"></div>
+          <div class="hero-logo-halo"></div>
+          <img src="./assets/draconis-logo.svg" alt="" class="hero-logo">
+          <div class="hero-ribbon">CONOCIMIENTO · GUÍA · DISCIPLINA</div>
+          <span class="floating-rune rune-1">✦</span>
+          <span class="floating-rune rune-2">◇</span>
+          <span class="floating-rune rune-3">⚜</span>
+        </div>
+      </div>
+      <div class="hero-ornament" aria-hidden="true"></div>
+    </section>
+
+    <section class="quick-paths section-light" aria-label="Elige tu camino">
+      <div class="container">
+        <div class="path-grid">
+          <a href="#casas" class="path-card reveal">
+            <span class="path-icon">📚</span>
+            <div><strong>Quiero aprender</strong><p>Tutorías, refuerzos y clases particulares.</p></div>
+            <span class="path-arrow">→</span>
+          </a>
+          <a href="#cotizar" class="path-card reveal">
+            <span class="path-icon">⚔️</span>
+            <div><strong>Necesito apoyo con un proyecto</strong><p>Cuéntale tu desafío a la Orden.</p></div>
+            <span class="path-arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre-nosotros" class="about section-light section-pad">
+      <div class="container two-col">
+        <div class="about-art reveal" aria-hidden="true">
+          <div class="medieval-card">
+            <div class="shield">D</div>
+            <span>ORDO DRACONIS</span>
+            <div class="ornamental-line"></div>
+            <p>Scientia dux est</p>
+          </div>
+        </div>
+        <div class="section-copy reveal">
+          <span class="eyebrow dark">SOBRE NOSOTROS</span>
+          <h2>Una Orden para desafíos de muchas formas.</h2>
+          <p>Draconis es una marca de soporte y acompañamiento académico que reúne un <strong>Equipo Erudito</strong> con experiencia en distintas áreas del conocimiento.</p>
+          <p>No mostramos perfiles individuales al público: cada solicitud se revisa internamente y se asigna al <strong>Maestre</strong> cuya experiencia, disponibilidad y disciplina se ajusten mejor al desafío.</p>
+          <div class="mini-features">
+            <span>✦ Atención personalizada</span>
+            <span>✦ Múltiples áreas</span>
+            <span>✦ Servicios virtuales y físicos*</span>
+          </div>
+          <small class="fine-print">*Los servicios físicos dependen de la ubicación, la complejidad y la disponibilidad.</small>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" class="services section-dark section-pad">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <span class="eyebrow">NUESTROS SERVICIOS</span>
+          <h2>Desde una explicación hasta un gran proyecto.</h2>
+          <p>Atendemos distintos niveles académicos y necesidades. Si tu desafío no aparece en la lista, pregúntanos: la Orden abarca mucho más.</p>
+        </div>
+        <div class="service-grid" id="service-grid"></div>
+        <div class="levels-box reveal">
+          <span class="levels-title">Niveles que acompañamos</span>
+          <div class="level-chips" id="level-chips"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="casas" class="houses section-light section-pad">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <span class="eyebrow dark">CASAS DEL CONOCIMIENTO</span>
+          <h2>Elige el campo de tu desafío.</h2>
+          <p>Cada Casa reúne disciplinas y ramas afines. Toca cualquier tarjeta para consultar directamente con la Orden por WhatsApp.</p>
+        </div>
+        <div id="houses-root" class="houses-root"></div>
+      </div>
+    </section>
+
+    <section id="orden" class="order section-dark section-pad">
+      <div class="container two-col order-layout">
+        <div class="section-copy reveal">
+          <span class="eyebrow">LA ORDEN DRACONIS</span>
+          <h2>Equipo Erudito. Maestres de distintas disciplinas.</h2>
+          <p>En Draconis, el cliente no tiene que adivinar quién puede ayudarle. La Orden estudia el requerimiento y busca internamente al Maestre más apropiado para acompañar el proceso.</p>
+          <ul class="order-list">
+            <li><span>01</span><div><strong>Escuchamos el desafío</strong><p>Entendemos área, nivel, plazo, modalidad y alcance.</p></div></li>
+            <li><span>02</span><div><strong>Buscamos al Maestre adecuado</strong><p>La asignación se realiza según conocimiento y disponibilidad.</p></div></li>
+            <li><span>03</span><div><strong>Acompañamos el camino</strong><p>Mantenemos un canal claro de comunicación y seguimiento.</p></div></li>
+          </ul>
+        </div>
+        <div class="order-visual reveal" aria-hidden="true">
+          <div class="book-stage">
+            <div class="book-cover"><span>ORDEN</span><strong>DRACONIS</strong><small>Codex Eruditorum</small></div>
+            <div class="book-pages"></div>
+            <div class="book-flame">🔥</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats section-light section-pad-sm" aria-label="Cifras de Draconis">
+      <div class="container">
+        <div class="stats-grid" id="stats-grid"></div>
+      </div>
+    </section>
+
+    <section id="clientes" class="clients section-light section-pad">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <span class="eyebrow dark">CLIENTES</span>
+          <h2>Ellos ya confiaron en la Orden.</h2>
+          <p>Experiencias y capturas reales podrán vivir aquí. Dejamos el carrusel preparado para que reemplaces cada imagen fácilmente.</p>
+        </div>
+        <div class="testimonial-shell reveal">
+          <button class="carousel-arrow prev" id="testimonials-prev" type="button" aria-label="Testimonio anterior">←</button>
+          <div class="testimonial-track" id="testimonial-track" tabindex="0"></div>
+          <button class="carousel-arrow next" id="testimonials-next" type="button" aria-label="Testimonio siguiente">→</button>
+        </div>
+        <div class="carousel-dots" id="testimonial-dots" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section id="videos" class="videos section-dark section-pad">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <span class="eyebrow">CONOCE DRACONIS</span>
+          <h2>Historias, clases y contenido de la Orden.</h2>
+          <p>Este espacio queda preparado para tus videos de YouTube y TikTok.</p>
+        </div>
+        <div class="video-grid" id="video-grid"></div>
+      </div>
+    </section>
+
+    <section id="cotizar" class="quote section-light section-pad">
+      <div class="container quote-layout">
+        <div class="quote-intro reveal">
+          <span class="eyebrow dark">COTIZAR</span>
+          <h2>Presenta tu desafío a la Orden.</h2>
+          <p>Si prefieres una conversación inmediata, habla directamente con nuestro agente. Si quieres dejar todo organizado, llena el buzón y al final abriremos WhatsApp con tu información lista para enviar.</p>
+
+          <a class="button button-whatsapp whatsapp-general" href="#">
+            <span class="wa-dot">◉</span>
+            Cotizar directamente por WhatsApp
+          </a>
+
+          <div class="quote-note">
+            <strong>¿Qué pasa con el buzón?</strong>
+            <p>Cuando Supabase esté conectado, tu solicitud quedará registrada como respaldo. Después abriremos WhatsApp para que confirmes el envío al agente.</p>
+          </div>
+        </div>
+
+        <div class="quote-card reveal">
+          <div class="quote-card-top">
+            <img src="./assets/draconis-logo.svg" alt="" aria-hidden="true">
+            <div><span>BUZÓN DE LA ORDEN</span><strong>Cuéntanos qué necesitas</strong></div>
+          </div>
+          <form id="quote-form" novalidate>
+            <input type="text" name="website" tabindex="-1" autocomplete="off" class="honeypot" aria-hidden="true">
+
+            <div class="form-grid">
+              <label class="field"><span>Nombre <b>*</b></span><input name="nombre" type="text" autocomplete="name" maxlength="100" required placeholder="¿Cómo te llamas?"></label>
+              <label class="field"><span>WhatsApp <b>*</b></span><input name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" maxlength="30" required placeholder="Ej. 300 123 4567"></label>
+              <label class="field"><span>Correo personal <b>*</b></span><input name="correo" type="email" autocomplete="email" maxlength="160" required placeholder="ejemplo@gmail.com"></label>
+              <label class="field"><span>Universidad o institución</span><input name="universidad" type="text" maxlength="160" placeholder="Nombre de la institución"></label>
+
+              <label class="field"><span>Nivel académico <b>*</b></span><select name="nivel" id="quote-level" required><option value="">Seleccionar…</option></select></label>
+              <label class="field"><span>¿Qué necesitas? <b>*</b></span>
+                <select name="tipo" required>
+                  <option value="">Seleccionar…</option>
+                  <option>Tutoría o clase</option>
+                  <option>Trabajo académico</option>
+                  <option>Ensayo</option>
+                  <option>Proyecto</option>
+                  <option>Presentación</option>
+                  <option>Maqueta o proyecto físico</option>
+                  <option>Tesis / trabajo de grado</option>
+                  <option>Investigación</option>
+                  <option>Revisión / corrección</option>
+                  <option>Otro desafío</option>
+                </select>
+              </label>
+
+              <label class="field"><span>Casa o área <b>*</b></span><select name="casa" id="quote-house" required><option value="">Seleccionar…</option></select></label>
+              <label class="field"><span>Materia o tema</span><input name="materia" type="text" maxlength="160" placeholder="Ej. Mecánica cuántica"></label>
+
+              <label class="field"><span>Modalidad</span>
+                <select name="modalidad">
+                  <option value="Virtual">Virtual</option>
+                  <option value="Presencial / físico">Presencial / físico</option>
+                  <option value="Por definir">No estoy seguro(a)</option>
+                </select>
+              </label>
+              <label class="field"><span>Ciudad / ubicación</span><input name="ubicacion" type="text" maxlength="160" placeholder="Solo si aplica"></label>
+
+              <label class="field"><span>Fecha requerida <b>*</b></span><input name="fecha" id="quote-date" type="date" required></label>
+              <label class="field"><span>Hora requerida</span><input name="hora" type="time"></label>
+
+              <label class="field budget-field"><span>Presupuesto estimado</span><div class="money-input"><span>$</span><input name="presupuesto" id="budget-input" type="number" min="0" step="1000" inputmode="numeric" placeholder="Solo números"></div></label>
+              <label class="check-card"><input name="sin_limite" id="no-budget-limit" type="checkbox"><span><strong>Sin límite de presupuesto</strong><small>Prefiero recibir una propuesta según el alcance.</small></span></label>
+
+              <label class="field field-wide"><span>Cuéntanos tu desafío <b>*</b></span><textarea name="descripcion" rows="7" minlength="15" maxlength="3000" required placeholder="Describe lo que necesitas, instrucciones importantes, alcance y cualquier detalle que debamos conocer."></textarea></label>
+            </div>
+
+            <label class="privacy-check"><input name="privacidad" type="checkbox" required><span>Acepto que Draconis use estos datos para responder mi solicitud. No se adjuntan archivos aquí; los compartiré por WhatsApp si son necesarios.</span></label>
+
+            <button id="quote-submit" class="button button-primary button-full" type="submit"><span>🔥</span> Enviar mi desafío</button>
+            <p class="form-help">Al continuar se abrirá WhatsApp con el mensaje preparado. Solo tendrás que tocar <strong>Enviar</strong>.</p>
+            <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="unete" class="join section-dark section-pad">
+      <div class="container join-card reveal">
+        <div class="join-mark">⚜</div>
+        <div class="join-copy">
+          <span class="eyebrow">ÚNETE A LA ORDEN</span>
+          <h2>¿Tu conocimiento puede guiar a otros?</h2>
+          <p>La Orden Draconis siempre está abierta a conocer nuevos perfiles profesionales, docentes, investigadores, artistas y especialistas.</p>
+        </div>
+        <a class="button button-primary whatsapp-join" href="#">⚔️ Quiero unirme a la Orden</a>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contacto" class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="./assets/draconis-logo.svg" alt="">
+        <div><strong data-brand-name>DRACONIS</strong><span data-brand-descriptor>Soporte Académico</span></div>
+        <p data-slogan>Que ningún desafío te encuentre sin guía.</p>
+      </div>
+      <div class="footer-links">
+        <strong>Explora</strong>
+        <a href="#servicios">Servicios</a>
+        <a href="#casas">Casas</a>
+        <a href="#clientes">Clientes</a>
+        <a href="#cotizar">Cotizar</a>
+        <a href="#unete">Únete a la Orden</a>
+      </div>
+      <div class="footer-contact">
+        <strong>Contacto</strong>
+        <a id="footer-whatsapp" href="#">WhatsApp</a>
+        <a id="footer-email" href="#">Correo</a>
+        <span id="footer-location">Colombia</span>
+        <div class="footer-socials" id="footer-socials"></div>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <span>© <span id="current-year"></span> Draconis. Todos los derechos reservados.</span>
+      <span>Los servicios académicos deben utilizarse conforme a las reglas de cada institución.</span>
+    </div>
+  </footer>
+
+  <a id="dragon-whatsapp" class="dragon-whatsapp" href="#" aria-label="Hablar con Draconis por WhatsApp">
+    <span class="dragon-chat-bubble" aria-hidden="true">¿Traes un desafío?<br><strong>La Orden está aquí.</strong></span>
+    <span class="dragon-orb">
+      <img src="./assets/draconis-logo.svg" alt="">
+      <span class="wa-badge" aria-hidden="true">◉</span>
+    </span>
+  </a>
+
+  <div id="toast-region" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+</body>
+</html>
