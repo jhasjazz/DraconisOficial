@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 920">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#261333"/><stop offset="1" stop-color="#100917"/></linearGradient></defs>
+  <rect width="760" height="920" rx="46" fill="url(#bg)"/>
+  <rect x="38" y="38" width="684" height="844" rx="36" fill="#f7f2fb"/>
+  <rect x="76" y="90" width="430" height="88" rx="28" fill="#e5d6f5"/><rect x="250" y="210" width="400" height="98" rx="28" fill="#d7f1dc"/>
+  <rect x="76" y="338" width="500" height="82" rx="28" fill="#e5d6f5"/><rect x="204" y="452" width="446" height="112" rx="28" fill="#d7f1dc"/>
+  <rect x="76" y="596" width="360" height="80" rx="28" fill="#e5d6f5"/>
+  <text x="380" y="752" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="38" fill="#32194b">★★★★★</text>
+  <text x="380" y="812" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" fill="#6c5c78">Testimonio 2</text>
+  <text x="380" y="850" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#95879e">Reemplaza este SVG por una captura real</text>
+</svg>
