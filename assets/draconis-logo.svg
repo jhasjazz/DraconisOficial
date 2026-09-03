@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" role="img" aria-labelledby="title desc">
+  <title id="title">Draconis</title>
+  <desc id="desc">Emblema de un dragón erudito con gafas y llama</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="70%"><stop offset="0" stop-color="#6b2bbd"/><stop offset="1" stop-color="#190d29"/></radialGradient>
+    <linearGradient id="scale" x1="0" x2="1"><stop stop-color="#b167ff"/><stop offset="1" stop-color="#6b2bd0"/></linearGradient>
+    <linearGradient id="flame" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#ff5b45"/><stop offset=".55" stop-color="#ff9a4f"/><stop offset="1" stop-color="#ffd36a"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <circle cx="210" cy="210" r="194" fill="url(#bg)" stroke="#a867ff" stroke-width="10"/>
+  <path d="M128 145C78 119 71 65 94 37c9 40 37 44 67 63" fill="#4b207d" stroke="#b879ff" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M292 145c50-26 57-80 34-108-9 40-37 44-67 63" fill="#4b207d" stroke="#b879ff" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M112 168c7-68 56-112 98-112s91 44 98 112v75c0 80-57 135-98 135s-98-55-98-135z" fill="url(#scale)" stroke="#d4a5ff" stroke-width="8"/>
+  <path d="M153 108c18-20 39-29 57-29 18 0 39 9 57 29-13-6-25-8-38-7l-19 34-19-34c-13-1-25 1-38 7z" fill="#2a133f" opacity=".8"/>
+  <path d="M104 207c-24 5-42 25-46 52 24 2 45-5 62-22" fill="#7b39c9" stroke="#c58bff" stroke-width="7"/>
+  <path d="M316 207c24 5 42 25 46 52-24 2-45-5-62-22" fill="#7b39c9" stroke="#c58bff" stroke-width="7"/>
+  <g fill="#120a1b" stroke="#f0d7ff" stroke-width="7">
+    <rect x="128" y="151" width="72" height="52" rx="21"/><rect x="220" y="151" width="72" height="52" rx="21"/>
+    <path d="M200 172h20M122 165l-20-9M298 165l20-9" fill="none"/>
+  </g>
+  <circle cx="166" cy="177" r="9" fill="#ffb15e"/><circle cx="254" cy="177" r="9" fill="#ffb15e"/>
+  <path d="M176 216c14 10 54 10 68 0 3 29-8 48-34 48s-37-19-34-48z" fill="#391d4f" stroke="#d9b3ff" stroke-width="6"/>
+  <path d="M160 258c11 9 22 13 34 15l16 68 16-68c12-2 23-6 34-15-4 61-23 96-50 96s-46-35-50-96z" fill="#2a153a" stroke="#b779f2" stroke-width="6"/>
+  <path d="M202 240l8 5 8-5" fill="none" stroke="#ffb15e" stroke-width="6" stroke-linecap="round"/>
+  <path d="M318 292c22-23 19-49 1-68 31 3 50 23 50 48 0 26-20 46-46 47 11-8 15-16 15-26-8 10-15 15-27 17 0-7 2-12 7-18z" fill="url(#flame)" filter="url(#glow)"/>
+  <path d="M162 292h96" stroke="#f5dcff" stroke-width="8" stroke-linecap="round" opacity=".8"/>
+  <path d="M177 306h66" stroke="#b775ff" stroke-width="6" stroke-linecap="round" opacity=".7"/>
+</svg>
